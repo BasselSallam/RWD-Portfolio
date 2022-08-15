@@ -1,0 +1,54 @@
+@mixin headLines {
+    background: #d7effb;
+    background: -webkit-linear-gradient(to top, #ffffff, #e5f5fe);
+    background: linear-gradient(to top, #ffffff, #e5f5fe);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+@mixin headersSize {
+    font-size: 2.5rem;
+    margin-top: 0.8rem;
+    margin-bottom:0.8rem;
+}
+
+.grid{
+    @include headLines;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.head1{
+    @include headersSize;
+}
+.head2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+div{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+svg{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    fill: rgb(146, 172, 255);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+}
+.test-img{
+    width: 10rem;
+}
+.bg-me{
+    color: white;
+    background-color: #667885;
+}
+div{
+    font-size: 1.2rem;
+}

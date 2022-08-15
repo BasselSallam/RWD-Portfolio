@@ -1,0 +1,57 @@
+.grid {
+  background: #d7effb;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(#e5f5fe));
+  background: linear-gradient(to top, #ffffff, #e5f5fe);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.head1 {
+  font-size: 2.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.head2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+div {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+svg {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  fill: #92acff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.test-img {
+  width: 10rem;
+}
+
+.bg-me {
+  color: white;
+  background-color: #667885;
+}
+
+div {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=sass.css.map */
